@@ -2,7 +2,6 @@
 display-flex, .display-flex, .display-flex-center, .signup-content, .signin-content, .social-login, .socials {
   display: flex;
   display: -webkit-flex; }
-
 /* @extend list-type-ulli; */
 list-type-ulli, .socials {
   list-style-type: none;
@@ -257,7 +256,7 @@ body {
 
 .signup-form, .signup-image, .signin-form, .signin-image {
   width: 50%;
-  overflow: hidden; }
+  overflow-x: auto; }
 
 .signup-image {
   margin: 0 55px; }
@@ -290,6 +289,7 @@ figure {
     background: #4292dc; }
 
 #signin {
+  overflow-x: auto; 
   margin-top: 16px; }
 
 .signup-image-link {
@@ -303,6 +303,7 @@ figure {
   color: #222; }
 
 .signup-form {
+  overflow-x: auto; 
   margin-left: 75px;
   margin-right: 75px;
   padding-left: 34px; }
@@ -313,7 +314,7 @@ figure {
 .form-group {
   position: relative;
   margin-bottom: 25px;
-  overflow: hidden; }
+  overflow-x: auto;  }
   .form-group:last-child {
     margin-bottom: 0px; }
 
